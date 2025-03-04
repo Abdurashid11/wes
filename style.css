@@ -1,0 +1,66 @@
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.kartochki {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 70%;
+}
+
+.card {
+    width: 290px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2.2px solid red;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+}
+
+.card button {
+    background-color: green;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cart {
+    width: 26%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2.2px solid red;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
